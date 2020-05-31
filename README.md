@@ -5,7 +5,6 @@ A practice for node.js and express.js. For security concern, in this repository 
 
 Feature:
 - Manage create, udpate and delete operations asynchronously. Browser will instantly show operaton result without refreshing the page.
-
 - Security protected by 
 	1. Requireing authentication.
 	2. Preventing html tags and attributes being posted as content. Achieved by sanitize-html.
