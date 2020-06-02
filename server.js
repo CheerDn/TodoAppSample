@@ -7,12 +7,12 @@ let db
 
 let port = process.env.PORT
 if (port == null || port == "") {
-  prt = 3000
+  port = 3000
 }
 
 // make the folder available from the root of the server
 app.use(express.static("public"))
-let connectionString = "mongodb+srv://Stargazer:xmVG2A8jQlYdOfBT@cluster0-1c73x.gcp.mongodb.net/TodoApp?retryWrites=true&w=majority"
+let connectionString = "REMOVED AS A SAMPLE CODE"
 
 /*
   The option "useUnifiedTopology: true"
@@ -36,7 +36,7 @@ app.use(express.json())
 
 function passwordProtected(req, res, next) {
   res.set("WWW-authenticate", 'Basic realm="Simple Todo App"')
-  if (req.headers.authorization == "Basic SmltbXk6bm9kZWpz") {
+  if (req.headers.authorization == "REMOVED AS A SAMPLE CODE") {
     // tell express to run next function
     next()
   } else {
