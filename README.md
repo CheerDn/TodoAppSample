@@ -10,4 +10,4 @@ Features:
 	1. Requiring authentication.
 	2. Preventing html tags and attributes being posted as content. Achieved by sanitize-html.
 
--  Connected with MongoDB.live.
+-  Connected to MongoDB.live.
